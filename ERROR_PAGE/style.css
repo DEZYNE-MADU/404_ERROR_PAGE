@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Body{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    min-height: 100vh;
+    text-align: center;
+}
+h1{
+    font-size: 90px;
+}
+img{
+    width:200px;
+}
+.text{
+    font-family: "poppins",sans-serif;
+}
+.text h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 100;
+}
+p{
+    font-weight: bolder;
+}
+button{
+    background: #38d311;
+    width:200px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 200;
+}
